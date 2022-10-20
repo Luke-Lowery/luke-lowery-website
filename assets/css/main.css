@@ -3879,6 +3879,9 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+		#intro h3 a{
+			font-size: 1.25em;
+		}
 
 		#intro p {
 			font-size: 1.25em;
