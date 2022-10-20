@@ -2673,7 +2673,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin-left: 1.5em;
 		padding-left: 0;
 	}
 
@@ -3882,13 +3882,19 @@ input, select, textarea {
 		#intro h3 {
 			font-size: 1.15em;
 		}
+			#intro h3 a{
+				font-weight: bold;
+				color:#3f8eb3;
+			}
+				#intro h3 a:hover{
+					color:#253149;
+				}
 
 		#intro ul.detail-list {
-			list-style-image: url("images/chevrons-right.svg");
+			list-style-type: square;
+			margin-left: 2.5em;
+			margin: 2em;
 		}
-			#intro ul.detail-list li {
-				line-height: 24px;
-			}
 
 		#intro p {
 			font-size: 1.25em;
@@ -3899,6 +3905,9 @@ input, select, textarea {
 				#intro p br {
 					display: none;
 				}
+				#intro ul.detail-list {
+					columns: 2;
+				}
 
 			}
 
@@ -3906,6 +3915,9 @@ input, select, textarea {
 
 				#intro p {
 					font-size: 1em;
+				}
+				#intro ul.detail-list {
+					columns: 2;
 				}
 
 			}
