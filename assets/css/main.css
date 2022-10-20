@@ -3879,9 +3879,16 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
-		#intro h3 a{
-			font-size: 1.25em;
+		#intro h3 {
+			font-size: 1.15em;
 		}
+
+		#intro ul.detail-list {
+			list-style-image: url("images/chevrons-right.svg");
+		}
+			#intro ul.detail-list li {
+				line-height: 24px;
+			}
 
 		#intro p {
 			font-size: 1.25em;
