@@ -29,7 +29,7 @@
     right: 0;
     margin: auto;
     height: 100%;
-    width: 2px;
+    width: 4px;
     background: #acbbd6;
     top: 20px;
   }
@@ -45,6 +45,9 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: #253149;
   }
   .timeline-text h6 {
     color: #090f16;
@@ -72,7 +75,8 @@
     width: 12px;
     height: 12px;
     left: -6px;
-    background: #253149;
+    border-radius: 50%;
+    background: #ffffff;
   }
   .single-timeline:nth-child(even) {
     -webkit-box-orient: horizontal;
