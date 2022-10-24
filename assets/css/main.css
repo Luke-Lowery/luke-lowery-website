@@ -113,7 +113,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: #ffffff80;
 		font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -3764,10 +3764,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #4167a6, #eff5f2);
-				background-image: -webkit-linear-gradient(to right, #4167a6, #eff5f2);
-				background-image: -ms-linear-gradient(to right, #4167a6, #eff5f2);
-				background-image: linear-gradient(to right, #4167a6, #eff5f2);
+				background-image: -moz-linear-gradient(to right, #4167a6, #73ECAD);
+				background-image: -webkit-linear-gradient(to right, #4167a6, #73ECAD);
+				background-image: -ms-linear-gradient(to right, #4167a6, #73ECAD);
+				background-image: linear-gradient(to right, #4167a6, #73ECAD);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3878,22 +3878,43 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+		#intro .profile-image{
+			border-radius: 50%;
+			border: solid 1px #253149;
+			height: 400px;
+			width: 400px;
+			box-shadow: -10px 5px 5px 5px #73ECAD;
+			margin-bottom: 2em;
+		}
+
 		#intro .actions{
-			margin-bottom: 5em;
+			margin-bottom: 2em;
+			margin-left: 0;
+		}
+		#intro .button{
+			border: solid 3.5px !important;
+			box-shadow: 5px 5px 10px 5px #000000;
 		}
 		#intro h3 {
 			font-size: 1.15em;
 		}
 			#intro h3 a{
 				font-weight: bold;
-				color:#253149;
+				color:#73ECAD;
 			}
 				#intro h3 a:hover{
 					color:#3f8eb3;
 				}
+		#intro h1{
+			color: #73ECAD;
+		}
 
-		#intro p .bio{
+		#intro p.bio{
 			font-size: 1.25em;
+		}
+		#intro p.bio-2{
+			font-size: 1.25em;
+			margin-bottom: 5em;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3914,6 +3935,10 @@ input, select, textarea {
 				}
 				#intro ul.detail-list {
 					columns: 2;
+				}
+				#intro .profile-image{
+					height: 300px;
+					width: 300px;
 				}
 
 			}
