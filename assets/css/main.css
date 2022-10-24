@@ -75,6 +75,10 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
+	h1, h2, h3{
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+	}
+
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -110,7 +114,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -145,7 +149,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2674,6 +2677,8 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			font-size: 1.5em;
+			font-weight: 1000;
 		}
 
 		ul.actions.special {
@@ -3759,10 +3764,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #4167a6, #4ca07e);
-				background-image: -webkit-linear-gradient(to right, #4167a6, #4ca07e);
-				background-image: -ms-linear-gradient(to right, #4167a6, #4ca07e);
-				background-image: linear-gradient(to right, #4167a6, #4ca07e);
+				background-image: -moz-linear-gradient(to right, #4167a6, #eff5f2);
+				background-image: -webkit-linear-gradient(to right, #4167a6, #eff5f2);
+				background-image: -ms-linear-gradient(to right, #4167a6, #eff5f2);
+				background-image: linear-gradient(to right, #4167a6, #eff5f2);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3851,7 +3856,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #4ca07e;
+							background-color: #a4cae3;
 						}
 
 		}
@@ -3873,24 +3878,21 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+		#intro .actions{
+			margin-bottom: 5em;
+		}
 		#intro h3 {
 			font-size: 1.15em;
 		}
 			#intro h3 a{
 				font-weight: bold;
-				color:#3f8eb3;
+				color:#253149;
 			}
 				#intro h3 a:hover{
-					color:#253149;
+					color:#3f8eb3;
 				}
 
-		#intro ul.detail-list {
-			list-style-type: square;
-			margin-left: 2.5em;
-			margin: 2em;
-		}
-
-		#intro p {
+		#intro p .bio{
 			font-size: 1.25em;
 		}
 
