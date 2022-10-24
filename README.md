@@ -1,2 +1,1 @@
-# luke-lowery-website
-Personal Portfolio and Resume Site
+# Luke Lowery's Personal Portfolio and Resume Site
