@@ -44,6 +44,13 @@
     color: #fff;
 }
 
+@media all and (max-width: 991px) {
+    .skills-container{
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 1.25em;
+    }
+}
+
 @media all and (max-width: 768px) {
     .skills-container{
         grid-template-columns: repeat(3, 1fr);
@@ -61,11 +68,5 @@
         height: 4.25em;
         width: 4.25em;
         margin: auto;
-    }
-}
-@media all and (max-width: 991px) {
-    .skills-container{
-        grid-template-columns: repeat(6, 1fr);
-        grid-gap: 1.25em;
     }
 }

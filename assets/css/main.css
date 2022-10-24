@@ -3878,11 +3878,15 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+		#intro .inner{
+			padding-top: 1.5em;
+		}
+
 		#intro .profile-image{
 			border-radius: 50%;
 			border: solid 1px #253149;
-			height: 400px;
-			width: 400px;
+			height: 375px;
+			width: 375px;
 			box-shadow: -10px 5px 5px 5px #73ECAD;
 			margin-bottom: 2em;
 		}
@@ -3907,6 +3911,7 @@ input, select, textarea {
 				}
 		#intro h1{
 			color: #73ECAD;
+			display: inline-block;
 		}
 
 		#intro p.bio{
@@ -3925,6 +3930,9 @@ input, select, textarea {
 				#intro ul.detail-list {
 					columns: 2;
 				}
+				#intro .inner{
+					padding-top: 5em;
+				}
 
 			}
 
@@ -3937,8 +3945,20 @@ input, select, textarea {
 					columns: 2;
 				}
 				#intro .profile-image{
-					height: 300px;
-					width: 300px;
+					height: 275px;
+					width: 275px;
+				}
+				#intro p.bio{
+					margin-bottom: .75em;
+				}
+				#intro p.bio{
+					margin-bottom: 1em;
+				}
+				#intro .actions{
+					margin-bottom: 3em;
+				}
+				#intro .inner{
+					padding-top: 1em;
 				}
 
 			}
