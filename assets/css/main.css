@@ -65,6 +65,18 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Main Section Divs */
+
+.main-section {
+	background-attachment: fixed;
+	background-image: url("images/intro.svg");
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: solid 2px black;
+	border-bottom-style: none;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3490,6 +3502,16 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer{
+		background-attachment: fixed;
+		background-image: url("images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		border: solid 2px black;
+		color: #ffffff;
+	}
+
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
 	}
@@ -3502,17 +3524,12 @@ input, select, textarea {
 
 		}
 
-	#footer > .inner a {
-		border-bottom-color: rgba(255, 255, 255, 0.15);
-	}
-
 		#footer > .inner a:hover {
 			border-bottom-color: transparent;
 		}
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3871,13 +3888,6 @@ input, select, textarea {
 
 /* Intro */
 
-	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
 		#intro .inner{
 			padding-top: 1.5em;
 		}
@@ -3947,15 +3957,16 @@ input, select, textarea {
 				#intro .profile-image{
 					height: 275px;
 					width: 275px;
-				}
-				#intro p.bio{
-					margin-bottom: .75em;
+					padding-top: .5em;
 				}
 				#intro p.bio{
 					margin-bottom: 1em;
 				}
+				#intro p.bio-2{
+					margin-bottom: 1.5em;
+				}
 				#intro .actions{
-					margin-bottom: 3em;
+					margin-bottom: 1em;
 				}
 				#intro .inner{
 					padding-top: 1em;

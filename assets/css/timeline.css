@@ -1,10 +1,11 @@
-.container {
+  .container {
     width: 100%;
     max-width: 1140px;
     padding: 0 15px;
     box-sizing: border-box;
     margin: 0 auto;
   }
+
   .timelines h2 {
     text-align: center;
     color: #fff;
@@ -12,13 +13,16 @@
     margin-bottom: 40px;
     font-size: 32px;
   }
+
   .d-flex-2 {
     display: flex;
     align-items: center;
   }
+
   .timeline-area {
     padding: 80px 0;
   }
+
   .all-timelines {
     position: relative;
   }
@@ -29,17 +33,37 @@
     right: 0;
     margin: auto;
     height: 100%;
-    width: 5px;
+    width: 7px;
     background: #acbbd6;
     top: 20px;
+    border-radius: 35%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: solid 2px #090f16;
   }
+
   .single-timeline {
     margin-bottom: 22px;
     margin-left: 5px;
   }
+
   .timeline-blank {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
   }
+
+  .timeline-blank img {
+    width: 22em;
+    height: auto;
+    padding: .75em;
+  }
+  .timeline-blank img.square-img{
+    height: 11em;
+    width: auto;
+    border-radius: 25%;
+  }
+
   .timeline-text {
     width: 50%;
     padding: 30px;
@@ -47,9 +71,9 @@
     box-sizing: border-box;
     position: relative;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background-color: #253149;
+    border: solid 2px #090f16;
   }
   .timeline-text h6 {
     color: #090f16;
@@ -58,7 +82,7 @@
     font-size: 1rem;
   }
   .timeline-text h5 {
-    color: #090f16;
+    color: #fff;
     font-weight: 1000;
     display: inline-block;
     font-size: 1.25rem;
@@ -68,6 +92,7 @@
     display: block;
     width: 100%;
   }
+
   .single-timeline:nth-child(even) .timeline-text span {
     text-align: right;
   }
@@ -83,34 +108,54 @@
     padding-right: 30px;
     text-align: right;
   }
+  .single-timeline:nth-child(even) .timeline-blank {
+    padding-left: 10px;
+    padding-right: 0;
+  }
   
   @media all and (max-width: 991px) {
+    .timeline-blank img {
+      width: 20em;
+    }
+    .timeline-blank img.square-img{
+      height: 10em;
+    }
   }
+
   @media all and (max-width: 768px) {
+
     .all-timelines::before {
       right: unset;
       top: 0;
     }
+
     .single-timeline:nth-child(even) .timeline-text {
       padding-left: 30px;
       padding-right: 0;
       text-align: left;
     }
+
     .timeline-blank {
       display: none;
     }
+
     .timeline-text {
       width: 100%;
     }
+
     .single-timeline:nth-child(even) .timeline-text span {
       text-align: left !important;
     }
+
     .single-timeline:nth-child(even) {
       margin-left: 5px !important;
     }
+
   }
+
   @media all and (max-width: 575px) {
   }
+
   @media all and (max-width: 360px) {
     .all-timelines::before {
       top: 32px;
