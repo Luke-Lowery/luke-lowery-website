@@ -1,14 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Luke Lowery Portfolio</title>
+		<title>Luke Lowery's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Google Fonts Import -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab|Raleway">
+		<!-- CSS Files -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/timeline.css" />
 		<link rel="stylesheet" href="assets/css/skills.css" />
+		<link rel="stylesheet" href="assets/css/projects.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab|Raleway">
 	</head>
 	<body class="is-preload">
 
@@ -18,10 +21,10 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">About</a></li>
-							<li><a href="#one">Education and Experience</a></li>
-							<li><a href="#two">Projects</a></li>
+							<li><a href="#timeline">Experience</a></li>
+							<li><a href="#projects">Projects</a></li>
 							<!--<li><a href="#three">Classes / Certifications</a></li>-->
-							<li><a href="#four">Contact</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -30,7 +33,7 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Intro -->
+				<!-- About Section -->
 					<section id="intro" class="wrapper style1 fullscreen fade-down main-section">
 						<div class="inner">
 							<img src="images/headshot.png" class="profile-image">
@@ -120,14 +123,14 @@
 							</div>
 						</div>
 					</section>
-				<!-- One -->
-				<section id="one" class="wrapper style1-alt fade-up main-section">
+				<!-- Experience Timeline -->
+				<section id="timeline" class="wrapper style2 fade-up main-section">
 					<div class="inner">
 						<h2>Education and Experience Timeline</h2>
 						<div class="timeline-area">
 							<div class="container">
 							  <div class="all-timelines">
-								<!--SINGLE TIMELINE-->
+								<!--Timeline Item-->
 								<div class="single-timeline d-flex-2">
 									<div class="timeline-blank">
 										<img src="images/Dibbs-Logo.png">
@@ -141,7 +144,7 @@
 									  </span>
 									</div>
 								  </div>
-								<!--SINGLE TIMELINE-->
+								<!--Timeline Item-->
 								<div class="single-timeline d-flex-2">
 									<div class="timeline-blank">
 										<img class="square-img" src="images/494-Logo.png">
@@ -155,7 +158,7 @@
 									  </span>
 									</div>
 								  </div>
-								<!--SINGLE TIMELINE-->
+								<!--Timeline Item-->
 								<div class="single-timeline d-flex-2">
 								  <div class="timeline-blank">
 									<div class="timeline-blank">
@@ -171,7 +174,7 @@
 									</span>
 								  </div>
 								</div>
-								<!--SINGLE TIMELINE-->
+								<!--Timeline Item-->
 								<div class="single-timeline d-flex-2">
 									<div class="timeline-blank">
 										<div class="timeline-blank">
@@ -191,47 +194,59 @@
 					</div>
 				</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style2 spotlights main section">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+				<!-- Projects Section -->
+					<section id="projects" class="wrapper style1 spotlights main-section">
+						<div class="inner">
+							<h2>Personal Projects<br><br></h2>
+							<div class="project-container">
+								<div class="project-card">
+									<img src="images/website profile pic.png" class="project-img color-1" alt="">
+									<div class="project-content">
+										<h1 class="project-title">Portfolio Website</h1>
+										<p class="project-info">
+											This Website! Creating a personal protfolio site using HTML/CSS and a base template.
+											Intended to be not only a place to showcase my projects but also a chance to practice my frontend skills.
+										</p>
+										<div class="project-btn-grp">
+											<ul class="actions project-actions">
+												<li class="project-button-1 project-btn">
+													<a href="https://github.com/Luke-Lowery" target="_blank" class="button scrolly">
+														&nbsp;<span class="icon brands fa-github">&nbsp;Github</span>
+													</a>
+												</li>
+												<li class="project-button-2 project-btn button-2">
+													<a href="https://luke-lowery.github.io/luke-lowery-website/" target="_blank" class="button scrolly">
+														<span>Homepage</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="project-card">
+									<img src="images/janitoria.png" class="project-img color-2" alt="">
+									<div class="project-content">
+										<h1 class="project-title">Janitoria</h1>
+										<p class="project-info">
+											A 2-D Game built with Unity/C# with a team of other students as a college capstone project. 
+											We built everything from the ground up, from art to ai to animations. Available for both Windows and Mac!
+										</p>
+										<div class="project-btn-grp">
+											<ul class="actions project-actions">
+												<li class="project-button-1 project-btn">
+													<a href="https://rajasg.itch.io/janitoria" target="_blank" class="button scrolly">
+														&nbsp;<span class="icon brands fa-itch-io">&nbsp;Itch.io</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+						</div>
 					</section>
 
-				<!-- Three -->
+				<!-- Classes and Certifications -->
 				<!--
 					<section id="three" class="wrapper style1 fade-down main section">
 						<div class="inner">
@@ -272,8 +287,8 @@
 						</div>
 					</section>
 				-->
-				<!-- Four -->
-					<section id="four" class="wrapper style1-alt fade-up main-section">
+				<!-- Contact Section -->
+					<section id="contact" class="wrapper style2 fade-up main-section">
 						<div class="inner">
 							<h2>Contact</h2>
 							<p>Email or Linkedin messaging are the most reliable ways to contact me, phone number can be provided on request.</p>

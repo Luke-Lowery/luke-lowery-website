@@ -1,0 +1,134 @@
+/* project section */
+.project-heading{
+    font-size: 100px;
+    background: #252525;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 8px transparent;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.project-card{
+    height: 400px;
+    position: relative;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transition: .5s;
+    border-radius: 10%;
+}
+
+.project-img.color-1{
+    box-shadow: 5px 5px 5px 7px #000000;
+}
+.project-img.color-2{
+    box-shadow: 5px 5px 5px 7px #000000;
+}
+
+.project-content{
+    position: relative;
+    padding: 40px;
+    color: #fff;
+    transition: .5s;
+    opacity: 0;
+}
+
+.project-title{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.project-info{
+    margin: 1.5em;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.project-btn-grp{
+    display: flex;
+    justify-content: center;
+}
+
+.project-btn-grp p{
+    display: inline-flex;
+}
+
+.project-btn{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: .75em;
+    line-height: 1em;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.project-button-1{
+    padding-left: 0 !important;
+}
+.project-button-2{
+    padding-right: 0;
+}
+
+.project-card:hover .project-img{
+    filter: blur(20px);
+}
+
+.project-card:hover .project-content{
+    opacity: 1;
+}
+
+.actions.project-actions{
+    margin: 0 !important;
+}
+.actions.project-actions a{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: .75em;
+    line-height: 1em;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    -moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+    display: flex;
+}
+
+.project-button-2 a{
+    background: none !important;
+    border: 2px solid #fff !important;
+}
+
+
+@media all and (max-width: 991px) {
+}
+
+@media all and (max-width: 768px) {
+    .project-btn-grp{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+}
