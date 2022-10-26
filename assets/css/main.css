@@ -91,6 +91,18 @@ input, select, textarea {
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 	}
 
+	h3{
+		text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	}
+
+	h2{
+		text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000, 5px 5px 5px #000000;
+	}
+
+	h1{
+		text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+	}
+
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -2799,6 +2811,9 @@ input, select, textarea {
 		}
 
 /* Contact */
+	ul.contact a{
+		font-size: 2.5em;
+	}
 
 	ul.contact {
 		list-style: none;
