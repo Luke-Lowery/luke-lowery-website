@@ -13,7 +13,7 @@
 * Mobile Repsonsiveness
 * Visual Design
 * Third Party Style/Font imports and application
-* Adapting and customizing an existing template in addition to adding content.
+* Adapting and customizing an existing template in addition to just adding content.
 
 <br>
 <br>
