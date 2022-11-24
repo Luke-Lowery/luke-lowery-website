@@ -3821,6 +3821,12 @@ input, select, textarea {
 			margin-bottom: 2em;
 		}
 
+		#intro .about-image{
+			height: 200px;
+			width: auto;
+			margin: 1em;
+		}
+
 		#intro .actions{
 			margin-bottom: 2em;
 			margin-left: 0;
@@ -3878,6 +3884,9 @@ input, select, textarea {
 					height: 275px;
 					width: 275px;
 					padding-top: .5em;
+				}
+				#intro .about-image{
+					height: 75px;
 				}
 				#intro p.bio{
 					margin-bottom: 1em;
