@@ -3815,17 +3815,17 @@ input, select, textarea {
 		#intro .profile-image{
 			border-radius: 50%;
 			border: solid 1px #253149;
-			height: 375px;
+			height: 475px;
 			width: 375px;
 			box-shadow: -10px 5px 5px 5px #73ECAD;
 			margin-bottom: 2em;
 		}
 
 		.about-image{
-			height: 200px !important;
-			width: auto !important;
-			margin-top: 1em !important;
-			margin-bottom: 1em !important;
+			height: 200px;
+			width: auto;
+			margin-top: 1em;
+			margin-bottom: 1em;
 		}
 
 		#intro .actions{
